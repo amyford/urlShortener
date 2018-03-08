@@ -2,7 +2,7 @@ $('button').click(function() {
 
   var aUrl = $('#url').val();
 
-  $.ajax('http://188.166.151.221:3000/', {
+  $.ajax('http://localhost:3000/', {
     method: 'post',
     crossDomain: true,
     data: {
@@ -16,7 +16,7 @@ $('button').click(function() {
     $('#content').empty();
 
     var newUrl = $('<p>');
-    var newLink = 'http://188.166.151.221:3000/'+ data.shortURL;
+    var newLink = 'http://localhost:3000/'+ data.shortURL;
     newUrl.text(newLink);
     $('#content').append(newUrl);
 

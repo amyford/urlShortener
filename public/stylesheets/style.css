@@ -1,8 +1,36 @@
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
 }
 
-a {
-  color: #00B7FF;
+input {
+  width: 50%;
+}
+
+input, button, p {
+  font-family: 'Karma', sans-serif;
+  font-size: 30px;
+  margin-top: 15%;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+input {
+  border: 3px solid #4B38A0;
+}
+
+button {
+  background-color: #7785AC;
+  font-weight: bold;
+  border: 3px solid #4B38A0;
+}
+
+
+p {
+  margin-top: 2%;
+  background-color: #7785AC;
 }
